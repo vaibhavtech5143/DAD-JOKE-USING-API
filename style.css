@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-image: url(/Assests/Snowy-Sunset-Background.webp);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    border-radius: 14px;
+    margin-top: 20%;
+
+
+
+}
+
+#content-box {
+    background-color: #E9D5DA;
+    display: inline-block;
+    border: 2px solid;
+    padding: 14px 14px 14px 14px;
+    border-radius: 14px;
+   width: 50%;
+   height: fit-content;
+}
+
+h1 {
+    /* padding-bottom: 1.4rem; */
+    color: #256D85;
+    font-size: xx-large;
+}
+
+#joke-get {
+    text-align: center;
+    margin-top: 14px;
+    /* background-color: #827397; */
+    /* border: 0.2rem solid rgb(222, 222, 132); */
+    border-radius: 14px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.center {
+    /* border: 5px solid #FFFF00; */
+    text-align: center;
+}
+
+#joke-generator {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-block-start: 20%;
+    margin:0 auto;
+    display:block;
+    margin-top: 14px
+;}
+
+#joke-generator:hover {
+    background-color: #258a28;
+}
